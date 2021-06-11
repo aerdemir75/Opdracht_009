@@ -1,0 +1,54 @@
+body {
+    background-color: navajowhite;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(184, 0, 0);
+}
+a:hover{
+    color:rgb(63, 172, 0);
+}
+nav {
+    border: 2px solid green;
+    border-width: 5px;
+    padding: 2px;
+    margin: 10px;
+    width: 75px;
+    display: inline;
+}
+header {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+}
+form label {
+
+    color: rgb(244, 248, 4);
+}
+form label {
+    text-decoration: none;
+    color: rgb(184, 0, 0);
+}
+form label:hover{
+    color:rgb(63, 172, 0);
+}
+label input {
+    border: 2px solid green;
+}
+label textarea {
+    border: 2px solid green;
+}
+@media (max-width: 1024px) {
+    body {
+        background-color: lightblue;
+    }
+}
+.gold-border {
+    border: 5px solid gold;
+    border-style: ridge;
+    border-radius: 15px;
+    margin: 10px;
+    width: 150px;
+}

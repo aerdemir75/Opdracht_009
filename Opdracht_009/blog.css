@@ -1,0 +1,23 @@
+body {
+    background-color: salmon;
+}
+
+.gallardo {
+    width: 300px;
+    border: 1px solid black;
+    display: flex;   
+    
+     
+}
+nav {
+    margin-bottom: 10px;
+}
+@media (max-width: 1024px) {
+
+}
+@media (min-width: 1024px) {
+    body {
+      background-color: lightblue;
+    
+    }
+}

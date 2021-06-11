@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="recepten.css"/>
+    <title>Recepten</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="about.html"> AboutMe</a>
+        <a href="recepten.html">Recepten</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html"> Contact </a>
+        <a href="https://www.google.nl" target="_blank">Google</a>
+    </nav>
+    <header>
+        <h1>Recepten</h1>
+    </header>
+    <input type="hidden" name="form-name" value="recepten">
+
+    <form name="recepten" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Email: <input type="text" name="email" /></label>
+        </p>
+        <p>
+            <label>Tel.: <input type="tel" name="Tel" /></label>
+        </p>
+        <p>
+            <label>Leeftijd: <input type="number" name="age" /></label>
+        </p>
+        <p>
+            <label>Geboorte Datum: <input type="date" name="date" /></label>
+        </p>
+        <p>
+            <label>Geslacht: <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender"
+                    value="female"> Female</label>
+        </p>
+        <p>
+            <label>Favoriete Cuisine: <input type="checkbox" name="frans" />Frans
+                <input type="checkbox" name="italiaans" />Italiaans
+                <input type="checkbox" name="spaans" />Spaans
+                <input type="checkbox" name="arabisch" />Arabisch</label>
+        </p>
+        <p>
+            <label for="colorpicker">Favoriete kleur van short:</label>
+            <input type="color" id="colorpicker" value="#000000">
+        </p>
+        <p>
+            <label>Biografie: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <label>Upload je laatste recept: <input type="file" name="recept"/></label>
+        </p>
+        <p>
+            <label>Jou eigen website link/url: <input type="url" name="url"/></label>
+
+        </p>
+        <p class="reset-submit">
+            <input type="reset">
+            <input type="submit">
+        </p>
+
+    </form>
+    
+    <footer>
+     
+
+
+
+        <address class="gold-border">
+           contact <a href="mailto:codingerdemir@gmail.com">Arif Erdemir</a>
+        </address>
+        <p>&copy; 2021 Arif Erdemir</p>
+  
+     </footer>
+
+</body>
+
+
+</html>
